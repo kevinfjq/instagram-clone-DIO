@@ -14,4 +14,87 @@ body{
     padding: 0;
     display: flex;
     justify-content: center;
+    background-color: rgb(241, 241, 241);
 }
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    height: 50rem;
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.profile-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture img{
+    height: 6rem;
+    width: 6rem;
+    background-color: rgb(244, 242, 244);
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.login{
+    background-color: #0095F6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.logout{
+    color: #0095F6;
+    margin-top: 1rem;
+}
+
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+.link-blue{
+    color: #0095F6;
+}
+
